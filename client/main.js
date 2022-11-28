@@ -2,7 +2,7 @@ const complimentBtn = document.getElementById("complimentButton")
 const fortuneBtn = document.getElementById("fortuneBtn")
 const gameBtn = document.getElementById("whatGame")
 const quoteBtn = document.getElementById("quoteBtn")
-
+const complimentBtn2 = document.getElementById("complimentButton2")
 
 const quotesCallback = ({ data: quotes }) => {
     displayQuotes(quotes)
@@ -71,3 +71,4 @@ complimentBtn.addEventListener('click', getCompliment)
 fortuneBtn.addEventListener('click', getFortune)
 gameBtn.addEventListener('click', getGame)
 quoteBtn.addEventListener('submit', submitHandler)
+complimentBtn2.addEventListener('click', getCompliment)
